@@ -3,7 +3,7 @@ def my_func(name):
     return
 
 
-names = ['Hanna', 'Harry', 'Hedwig', 'Crabb']
+names = ['Hanna', 'Harry', 'Hedwig', 'Crabb', 'Herry']
 
 for i in names:
     my_func(i)
