@@ -4,7 +4,7 @@ def sorting(*args):
     maxim = 0
     for i in args:
         summ += i
-        if i > args[-1] and i > maxim:
+        if i > args[n - 1] and i > maxim:
             maxim = i
         n += 1
     return summ, maxim
